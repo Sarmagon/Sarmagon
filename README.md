@@ -75,16 +75,16 @@
 ## 🎓 Обучение и сертификаты
 
 - **Skillbox — Основы Python. Часть 1**  
-  Сертификат № SKB0469958 · 10.02.2026
+  [Сертификат № SKB0469958](https://github.com/Sarmagon/python-portfolio/blob/main/certificates/skillbox-python-part-1.png) · 10.02.2026
 
 - **Skillbox — Основы Python. Часть 2**  
-  Сертификат № SKB0487169 · 02.05.2026
+  [Сертификат № SKB0487169](https://github.com/Sarmagon/python-portfolio/blob/main/certificates/skillbox-python-part-2.png) · 02.05.2026
 
 - **GeekBrains / Skillbox Holding — Python-разработчик**  
-  Сертификат № 2835512 · 17.06.2026
+  [Сертификат № 2835512](https://github.com/Sarmagon/python-portfolio/blob/main/certificates/geekbrains-python-developer.pdf) · 17.06.2026
 
 - **Skillbox — Архитектор программного обеспечения**  
-  Сертификат № SKB0505176 · 22.09.2026
+  [Сертификат № SKB0505176](https://github.com/Sarmagon/python-portfolio/blob/main/certificates/skillbox-software-architect.png) · 22.09.2026
 
 ---
 
