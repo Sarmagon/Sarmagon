@@ -13,8 +13,11 @@
 ![Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white)
 ![Flask](https://img.shields.io/badge/Flask-000000?logo=flask&logoColor=white)
+![Django](https://img.shields.io/badge/Django-092E20?logo=django&logoColor=white)
 ![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-red)
 ![SQLite](https://img.shields.io/badge/SQLite-003B57?logo=sqlite&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?logo=redis&logoColor=white)
 ![Celery](https://img.shields.io/badge/Celery-37814A)
 ![pytest](https://img.shields.io/badge/pytest-0A9EDC?logo=pytest&logoColor=white)
@@ -32,6 +35,9 @@
 
 - FastAPI
 - Flask
+- Django
+- PostgreSQL
+- Docker / Docker Compose
 - SQLAlchemy
 - Async SQLAlchemy
 - Celery + Redis
@@ -40,6 +46,39 @@
 - GitHub Actions
 
 👉 [Открыть Python Portfolio](https://github.com/Sarmagon/python-portfolio)
+
+---
+
+### 🐦 Twitter Clone Backend
+
+Учебный backend корпоративного сервиса микроблогов — итоговый проект Python Advanced.
+
+В проекте реализованы:
+
+- REST API на FastAPI и авторизация по API-ключу
+- твиты, лайки, подписки и лента
+- загрузка изображений с проверкой содержимого и прав доступа
+- PostgreSQL, SQLAlchemy и миграции Alembic
+- запуск через Docker Compose с Nginx и готовым интерфейсом Vue
+- тесты API на pytest и проверки Ruff
+
+👉 [Открыть Twitter Clone Backend](https://github.com/Sarmagon/twitter-clone-backend)
+
+---
+
+### 📊 Django CRM
+
+Веб-приложение для учёта услуг, рекламных кампаний, клиентов и контрактов.
+
+В проекте реализованы:
+
+- авторизация и роли оператора, маркетолога и менеджера
+- работа с услугами, кампаниями, лидами, контрактами и активными клиентами
+- перевод лида в активного клиента
+- статистика рекламных кампаний
+- PostgreSQL и запуск через Docker Compose
+
+👉 [Открыть Django CRM](https://github.com/Sarmagon/django-crm)
 
 ---
 
@@ -64,9 +103,7 @@
 
 ## 📚 Сейчас изучаю
 
-- Django
-- PostgreSQL
-- Docker
+- Django: углубляю практику
 - основы архитектуры программного обеспечения
 - микросервисный подход
 
@@ -85,6 +122,9 @@
 
 - **Skillbox — Архитектор программного обеспечения**  
   [Сертификат № SKB0505176](https://github.com/Sarmagon/python-portfolio/blob/main/certificates/skillbox-software-architect.png) · 22.09.2026
+
+- **Skillbox — Python Advanced**\
+  [Сертификат № SKB0506025](https://github.com/Sarmagon/python-portfolio/blob/main/certificates/skillbox-python-advanced.png) · 24.09.2026
 
 ---
 
