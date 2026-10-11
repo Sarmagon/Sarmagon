@@ -49,6 +49,21 @@
 
 ---
 
+### 🤖 Habit Tracker — Telegram + FastAPI
+
+🔗 [habit-tracker-telegram-fastapi](https://github.com/Sarmagon/habit-tracker-telegram-fastapi)
+
+Трекер привычек с отдельным Telegram frontend и HTTP backend: создание и редактирование привычек, ежедневные отметки, история и напоминания с часовыми поясами IANA.
+
+- JWT, проверка внутреннего service secret по Argon2id-хешу и зашифрованное хранилище токенов бота.
+- PostgreSQL, SQLAlchemy, миграции Alembic, идемпотентные отметки и блокировки строк.
+- Poetry, Docker Compose, pytest и GitHub Actions: Ruff, тесты, миграции и отдельные проверки PostgreSQL.
+
+**Статус:** учебный проект для локального запуска; публичный production deployment не заявляется.
+**Стек:** Python 3.12, FastAPI, pyTelegramBotAPI, PostgreSQL, SQLAlchemy, Alembic, SQLite, Poetry, Docker Compose, pytest, Ruff.
+
+---
+
 ### 🐦 Twitter Clone Backend
 
 Учебный backend корпоративного сервиса микроблогов — итоговый проект Python Advanced.
@@ -101,11 +116,30 @@
 
 ---
 
-## 📚 Сейчас изучаю
+### 🚢 Django Deployment Lab
+
+🔗 [skillbox-django-deploy](https://github.com/Sarmagon/skillbox-django-deploy)
+
+Учебная упаковка Django-приложения для запуска в Docker Compose и переноса на Linux VM через SSH. Зависимости фиксируются Poetry; миграции и сбор статики выполняются при запуске.
+
+**Стек:** Python 3.11, Django 4.2, Django REST Framework, SQLite, Poetry, Docker Compose.
+**Ограничения:** `runserver`, `DEBUG=1`, отсутствие TLS и постоянного тома SQLite. Это deployment practice; production deployment и доступность публичного сервера не заявляются.
+
+---
+
+## Django diploma — на ревью
+
+Интернет-магазин Megano: каталог, отзывы, профиль, корзина, оформление заказов, доставка, история и учебная оплата через очередь в БД. Python, Django 5.2, SQLite, Poetry, Pillow; предоставленный учебный frontend адаптирован к backend.
+
+**Статус на 11.10.2026:** финальный этап отправлен на ревью, принятие диплома не подтверждено. Публичный репозиторий будет добавлен после завершения ревью и проверки возможности распространения учебных материалов. Это не интеграция с настоящим платёжным провайдером; Celery/Redis в очереди не используются.
+
+---
+
+## 📚 Практика и дальнейшее обучение
 
 - Django: углубляю практику
-- основы архитектуры программного обеспечения
-- микросервисный подход
+- архитектурные компромиссы, ADR и NFR на основе завершённого проекта SportTogether
+- надёжность фоновых задач и production-развёртывание; микросервисный подход как направление дальнейшего изучения
 
 ---
 
