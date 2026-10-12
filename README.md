@@ -1,185 +1,73 @@
-# Привет! Я Станислав Смирнов 👋
+# Станислав Смирнов
 
-### Python Backend Developer
+Станислав Смирнов · Москва · **Junior Python Backend Developer**.
 
-Развиваюсь в backend-разработке на Python и проектировании программных систем.
+Завершил программу Python-разработчика (615 академических часов), курсы Django, Python Advanced и архитектуры ПО. Создаю учебные backend-проекты с API, базами данных, фоновыми задачами и тестами. Ищу первую роль в Python backend; коммерческий опыт разработки не заявляю.
 
-Работаю с REST API, базами данных, ORM, асинхронным Python, фоновыми задачами, тестированием и CI.
-
----
-
-## 🛠️ Технологии
-
-![Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?logo=flask&logoColor=white)
 ![Django](https://img.shields.io/badge/Django-092E20?logo=django&logoColor=white)
-![SQLAlchemy](https://img.shields.io/badge/SQLAlchemy-red)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?logo=sqlite&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?logo=redis&logoColor=white)
-![Celery](https://img.shields.io/badge/Celery-37814A)
-![pytest](https://img.shields.io/badge/pytest-0A9EDC?logo=pytest&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?logo=githubactions&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black)
 
----
+[Портфолио](https://github.com/Sarmagon/python-portfolio) · [Резюме](https://github.com/Sarmagon/python-portfolio/tree/main/resume) · [Сертификаты](https://github.com/Sarmagon/python-portfolio/tree/main/certificates)
 
-## 🚀 Основные проекты
+## Основные проекты
 
-### 🐍 Python Backend Portfolio
+### Habit Tracker — Telegram и FastAPI
 
-Мои проекты по Python-разработке:
+[Исходный код](https://github.com/Sarmagon/habit-tracker-telegram-fastapi) · [CI](https://github.com/Sarmagon/habit-tracker-telegram-fastapi/actions/workflows/ci.yml)
 
-- FastAPI
-- Flask
-- Django
-- PostgreSQL
-- Docker / Docker Compose
-- SQLAlchemy
-- Async SQLAlchemy
-- Celery + Redis
-- Telegram Bot API
-- pytest
-- GitHub Actions
+Привычки, ежедневные отметки, история и напоминания с часовыми поясами IANA. Отдельные Telegram frontend и HTTP backend; JWT, Argon2id для service secret, шифрование токенов бота, идемпотентные отметки. PostgreSQL, SQLAlchemy, Alembic, Poetry, Docker Compose. Проверены 47 тестов и отдельный тест PostgreSQL, Ruff и миграции. Учебный проект; публичное production-развёртывание не заявляется.
 
-👉 [Открыть Python Portfolio](https://github.com/Sarmagon/python-portfolio)
+### Twitter Clone Backend
 
----
+[Исходный код](https://github.com/Sarmagon/twitter-clone-backend) · [CI](https://github.com/Sarmagon/twitter-clone-backend/actions/workflows/ci.yml)
 
-### 🤖 Habit Tracker — Telegram + FastAPI
+Итоговый проект Python Advanced: REST API микроблогов, API-ключи, твиты, лента, лайки, подписки и загрузка изображений. FastAPI, PostgreSQL, SQLAlchemy, Alembic, Docker Compose, Nginx. 40 тестов, покрытие 78%, Ruff. Предоставленный готовый frontend отделён от собственного backend; собственный код не скрыт из статистики языков.
 
-🔗 [habit-tracker-telegram-fastapi](https://github.com/Sarmagon/habit-tracker-telegram-fastapi)
+### Django Marketplace — Megano
 
-Трекер привычек с отдельным Telegram frontend и HTTP backend: создание и редактирование привычек, ежедневные отметки, история и напоминания с часовыми поясами IANA.
+Принятый итоговый проект Django. Каталог, предложения продавцов, отзывы, профиль, корзина, оформление заказа, доставка, история и учебная оплата. Серверный расчёт суммы, транзакционное резервирование остатков, ключ идемпотентности checkout, очередь PaymentJob в БД с повторными попытками и lease. Django 5.2, SQLite, Poetry, Pillow; 58 тестов прошли.
 
-- JWT, проверка внутреннего service secret по Argon2id-хешу и зашифрованное хранилище токенов бота.
-- PostgreSQL, SQLAlchemy, миграции Alembic, идемпотентные отметки и блокировки строк.
-- Poetry, Docker Compose, pytest и GitHub Actions: Ruff, тесты, миграции и отдельные проверки PostgreSQL.
+**Подтверждение:** преподаватель принял работу 12.10.2026, по предоставленному сообщению Skillbox; [курс завершён](https://github.com/Sarmagon/python-portfolio/blob/main/certificates/skillbox-django.png). Слияние GitLab MR#8 не подтверждено. Публичные исходники пока не опубликованы: требуется уточнить лицензию предоставленного frontend. Очередь не использует Celery/Redis, оплата работает через локальный mock-сервис без настоящих банковских данных.
 
-**Статус:** учебный проект для локального запуска; публичный production deployment не заявляется.
-**Стек:** Python 3.12, FastAPI, pyTelegramBotAPI, PostgreSQL, SQLAlchemy, Alembic, SQLite, Poetry, Docker Compose, pytest, Ruff.
+### Django CRM
 
----
+[Исходный код](https://github.com/Sarmagon/django-crm)
 
-### 🐦 Twitter Clone Backend
+Услуги, рекламные кампании, лиды, договоры, активные клиенты и статистика. Авторизация и роли оператора, маркетолога и менеджера, перевод лида в клиента. Django ORM, PostgreSQL, Docker Compose. Проверены 3 теста, системная проверка Django и миграции. Выход выполняется POST с CSRF. Pylint имеет замечания; зелёный CI не заявляется. Локальное учебное приложение.
 
-Учебный backend корпоративного сервиса микроблогов — итоговый проект Python Advanced.
+### SportTogether Architecture
 
-В проекте реализованы:
+[Архитектурные материалы](https://github.com/Sarmagon/sport-together-architecture)
 
-- REST API на FastAPI и авторизация по API-ключу
-- твиты, лайки, подписки и лента
-- загрузка изображений с проверкой содержимого и прав доступа
-- PostgreSQL, SQLAlchemy и миграции Alembic
-- запуск через Docker Compose с Nginx и готовым интерфейсом Vue
-- тесты API на pytest и проверки Ruff
+Завершённый проект курса «Архитектор программного обеспечения»: требования, стейкхолдеры, ADR, NFR, архитектурные диаграммы, сценарии, риски, компромиссы, стоимость владения и презентация. Это проектирование системы; работающий backend SportTogether не заявляется.
 
-👉 [Открыть Twitter Clone Backend](https://github.com/Sarmagon/twitter-clone-backend)
+## Технологии
 
----
+| Область | Практика в проектах |
+|---|---|
+| Язык и web | Python, FastAPI, Django, Flask, REST API, OpenAPI |
+| Данные | PostgreSQL, SQLite, Django ORM, SQLAlchemy и Async SQLAlchemy, Peewee, Alembic |
+| Фоновые задачи | Celery, Redis, Celery Beat, Flower; отдельная очередь PaymentJob в Django |
+| Интеграции и доступ | Telegram Bot API, HTTP API, SMTP; JWT, Django auth/groups, API-ключи |
+| Проверки | pytest, unittest, Ruff; flake8, black, isort, mypy в Cookbook; GitHub Actions |
+| Запуск | Docker, Docker Compose, Nginx, Poetry, pip, Linux, SSH, Git |
+| Архитектура | ADR, NFR, анализ рисков, компромиссов и стоимости владения |
 
-### 📊 Django CRM
+## Обучение
 
-Веб-приложение для учёта услуг, рекламных кампаний, клиентов и контрактов.
+Программа Python-разработчика и курс Django завершены 12.10.2026; Python Advanced — 24.09.2026; архитектура ПО — 22.09.2026. Все семь сертификатов доступны в портфолио, включая основы Python и документ GeekBrains.
 
-В проекте реализованы:
+## Направление развития
 
-- авторизация и роли оператора, маркетолога и менеджера
-- работа с услугами, кампаниями, лидами, контрактами и активными клиентами
-- перевод лида в активного клиента
-- статистика рекламных кампаний
-- PostgreSQL и запуск через Docker Compose
+Production-развёртывание, наблюдаемость приложений, надёжность фоновых задач. Практика архитектурных решений подтверждается завершённым проектом SportTogether.
 
-👉 [Открыть Django CRM](https://github.com/Sarmagon/django-crm)
+## Дополнительная практика
 
----
+[Django Deployment Lab](https://github.com/Sarmagon/skillbox-django-deploy), Cookbook, обработка изображений, Parking API, Telegram-бот и File Sync — [в каталоге портфолио](https://github.com/Sarmagon/python-portfolio#дополнительные-проекты).
 
-### 🏗️ SportTogether Architecture
+## Контакты
 
-Архитектурный проект глобального спортивного приложения.
-
-В проекте представлены:
-
-- бизнес- и функциональные требования
-- ADR
-- NFR
-- архитектурные диаграммы
-- сценарии использования
-- анализ рисков
-- стоимость владения
-- архитектурная презентация
-
-👉 [Открыть SportTogether Architecture](https://github.com/Sarmagon/sport-together-architecture)
-
----
-
-### 🚢 Django Deployment Lab
-
-🔗 [skillbox-django-deploy](https://github.com/Sarmagon/skillbox-django-deploy)
-
-Учебная упаковка Django-приложения для запуска в Docker Compose и переноса на Linux VM через SSH. Зависимости фиксируются Poetry; миграции и сбор статики выполняются при запуске.
-
-**Стек:** Python 3.11, Django 4.2, Django REST Framework, SQLite, Poetry, Docker Compose.
-**Ограничения:** `runserver`, `DEBUG=1`, отсутствие TLS и постоянного тома SQLite. Это deployment practice; production deployment и доступность публичного сервера не заявляются.
-
----
-
-## Django diploma — на ревью
-
-Интернет-магазин Megano: каталог, отзывы, профиль, корзина, оформление заказов, доставка, история и учебная оплата через очередь в БД. Python, Django 5.2, SQLite, Poetry, Pillow; предоставленный учебный frontend адаптирован к backend.
-
-**Статус на 11.10.2026:** финальный этап отправлен на ревью, принятие диплома не подтверждено. Публичный репозиторий будет добавлен после завершения ревью и проверки возможности распространения учебных материалов. Это не интеграция с настоящим платёжным провайдером; Celery/Redis в очереди не используются.
-
----
-
-## 📚 Практика и дальнейшее обучение
-
-- Django: углубляю практику
-- архитектурные компромиссы, ADR и NFR на основе завершённого проекта SportTogether
-- надёжность фоновых задач и production-развёртывание; микросервисный подход как направление дальнейшего изучения
-
----
-
-## 🎓 Обучение и сертификаты
-
-- **Skillbox — Основы Python. Часть 1**  
-  [Сертификат № SKB0469958](https://github.com/Sarmagon/python-portfolio/blob/main/certificates/skillbox-python-part-1.png) · 10.02.2026
-
-- **Skillbox — Основы Python. Часть 2**  
-  [Сертификат № SKB0487169](https://github.com/Sarmagon/python-portfolio/blob/main/certificates/skillbox-python-part-2.png) · 02.05.2026
-
-- **GeekBrains / Skillbox Holding — Python-разработчик**  
-  [Сертификат № 2835512](https://github.com/Sarmagon/python-portfolio/blob/main/certificates/geekbrains-python-developer.pdf) · 17.06.2026
-
-- **Skillbox — Архитектор программного обеспечения**  
-  [Сертификат № SKB0505176](https://github.com/Sarmagon/python-portfolio/blob/main/certificates/skillbox-software-architect.png) · 22.09.2026
-
-- **Skillbox — Python Advanced**\
-  [Сертификат № SKB0506025](https://github.com/Sarmagon/python-portfolio/blob/main/certificates/skillbox-python-advanced.png) · 24.09.2026
-
----
-
-## 🎯 Направление развития
-
-Моя цель — развиваться как **Python Backend Developer** и работать над реальными backend-системами.
-
-Интересуют задачи, связанные с:
-
-- REST API
-- backend-сервисами
-- базами данных
-- автоматизацией
-- интеграциями
-- тестированием
-- архитектурой приложений
-
----
-
-## 📫 Контакты
-
-- GitHub: [@Sarmagon](https://github.com/Sarmagon)
-- Telegram: [@Sarmagon](https://t.me/Sarmagon)
-- Email: [stasus.sv@mail.ru](mailto:stasus.sv@mail.ru)
+[GitHub](https://github.com/Sarmagon) · [Telegram @Sarmagon](https://t.me/Sarmagon) · [stasus.sv@mail.ru](mailto:stasus.sv@mail.ru)
