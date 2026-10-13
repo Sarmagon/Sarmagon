@@ -14,11 +14,12 @@
 
 ## Основные проекты
 
-### Habit Tracker — Telegram и FastAPI
+### Megano — интернет-магазин на Django
 
-[Исходный код](https://github.com/Sarmagon/habit-tracker-telegram-fastapi) · [CI](https://github.com/Sarmagon/habit-tracker-telegram-fastapi/actions/workflows/ci.yml)
+Итоговый проект курса «Python-фреймворк Django», Skillbox. Каталог, корзина, оформление и история заказов, профиль и учебная оплата через очередь в БД с отдельным worker. Django 5.2, SQLite, Poetry; медиа в SeaweedFS, мониторинг Prometheus, Grafana и node-exporter. В итоговой версии в Ubuntu прошли 66 тестов. Sentry — подготовленная интеграция; frontend предоставлен в учебном задании.
 
-Привычки, ежедневные отметки, история и напоминания с часовыми поясами IANA. Отдельные Telegram frontend и HTTP backend; JWT, Argon2id для service secret, шифрование токенов бота, идемпотентные отметки. PostgreSQL, SQLAlchemy, Alembic, Poetry, Docker Compose. Проверены 47 тестов и отдельный тест PostgreSQL, Ruff и миграции. Учебный проект; публичное production-развёртывание не заявляется.
+[Исходный код на GitLab](https://gitlab.skillbox.ru/stanislav_smirnov_2/python_django_diploma/-/tree/master) · [Описание и ограничения](https://github.com/Sarmagon/python-portfolio#megano--интернет-магазин-на-django)
+
 
 ### Twitter Clone Backend
 
@@ -26,11 +27,11 @@
 
 Итоговый проект Python Advanced: REST API микроблогов, API-ключи, твиты, лента, лайки, подписки и загрузка изображений. FastAPI, PostgreSQL, SQLAlchemy, Alembic, Docker Compose, Nginx. 40 тестов, покрытие 78%, Ruff. Предоставленный готовый frontend отделён от собственного backend; собственный код не скрыт из статистики языков.
 
-### Django Marketplace — Megano
+### Habit Tracker — Telegram и FastAPI
 
-Принятый итоговый проект Django. Каталог, предложения продавцов, отзывы, профиль, корзина, оформление заказа, доставка, история и учебная оплата. Серверный расчёт суммы, транзакционное резервирование остатков, ключ идемпотентности checkout, очередь PaymentJob в БД с повторными попытками и lease. Django 5.2, SQLite, Poetry, Pillow; 58 тестов прошли.
+[Исходный код](https://github.com/Sarmagon/habit-tracker-telegram-fastapi) · [CI](https://github.com/Sarmagon/habit-tracker-telegram-fastapi/actions/workflows/ci.yml)
 
-**Подтверждение:** преподаватель принял работу 12.10.2026, по предоставленному сообщению Skillbox; [курс завершён](https://github.com/Sarmagon/python-portfolio/blob/main/certificates/skillbox-django.png). Слияние GitLab MR#8 не подтверждено. Публичные исходники пока не опубликованы: требуется уточнить лицензию предоставленного frontend. Очередь не использует Celery/Redis, оплата работает через локальный mock-сервис без настоящих банковских данных.
+Привычки, ежедневные отметки, история и напоминания с часовыми поясами IANA. Отдельные Telegram frontend и HTTP backend; JWT, Argon2id для service secret, шифрование токенов бота, идемпотентные отметки. PostgreSQL, SQLAlchemy, Alembic, Poetry, Docker Compose. Проверены 47 тестов и отдельный тест PostgreSQL, Ruff и миграции. Учебный проект; публичное production-развёртывание не заявляется.
 
 ### Django CRM
 
@@ -54,6 +55,7 @@
 | Интеграции и доступ | Telegram Bot API, HTTP API, SMTP; JWT, Django auth/groups, API-ключи |
 | Проверки | pytest, unittest, Ruff; flake8, black, isort, mypy в Cookbook; GitHub Actions |
 | Запуск | Docker, Docker Compose, Nginx, Poetry, pip, Linux, SSH, Git |
+| Мониторинг и хранение медиа | Prometheus, Grafana, node-exporter, SeaweedFS; Sentry — подготовленная интеграция |
 | Архитектура | ADR, NFR, анализ рисков, компромиссов и стоимости владения |
 
 ## Обучение
