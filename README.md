@@ -14,7 +14,7 @@
 
 | Проект | Моя работа |
 |---|---|
-| [Megano](https://gitlab.skillbox.ru/stanislav_smirnov_2/python_django_diploma/-/tree/master) | Интернет-магазин на Django: заказы, очередь учебной оплаты с worker, SeaweedFS, Prometheus и Grafana. Итоговый проект курса Django; frontend предоставлен. GitLab может требовать входа. |
+| [Лавка](https://github.com/Sarmagon/lavka-django) | Интернет-магазин на Django: каталог, корзина, заказы, очередь учебной оплаты, SeaweedFS и мониторинг. Развитие итогового проекта Django; собственный интерфейс, 12 демо-товаров, 72 теста. |
 | [Twitter Clone Backend](https://github.com/Sarmagon/twitter-clone-backend) | FastAPI, PostgreSQL, API-ключи, твиты, лайки, подписки и изображения; Alembic, Docker, pytest и Ruff. Итоговый проект Python Advanced; интерфейс основан на учебном Vue-шаблоне. |
 | [Habit Tracker](https://github.com/Sarmagon/habit-tracker-telegram-fastapi) | Telegram + FastAPI: привычки, история, напоминания, JWT, шифрование токенов, PostgreSQL и миграции. Учебный проект по приложенному ТЗ. |
 | [Django CRM](https://github.com/Sarmagon/django-crm) | Услуги, кампании, лиды, договоры, клиенты, роли и статистика; Django ORM и PostgreSQL. |
